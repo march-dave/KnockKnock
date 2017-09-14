@@ -12,10 +12,15 @@ import {
   View
 } from 'react-native';
 
+import CounterLabel from './components/CounterLabel';
+
 export default class KnockKnock extends Component {
   render() {
     return (
       <View style={styles.container}>
+
+        <CounterLabel />
+
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
