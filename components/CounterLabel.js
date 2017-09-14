@@ -5,7 +5,7 @@ class CounterLabel extends Component {
     render() {
         return (
             <View>
-                <Text>Counter</Text>
+                <Text>Counter {this.props.name}</Text>
             </View>
         );
     }

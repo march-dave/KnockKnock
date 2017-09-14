@@ -20,7 +20,7 @@ export default class KnockKnock extends Component {
     return (
       <View style={styles.container}>
 
-        <CounterLabel />
+        <CounterLabel name={1}/>
         <CounterInput />
 
         <Text style={styles.welcome}>
